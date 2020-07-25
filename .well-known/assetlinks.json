@@ -1,0 +1,25 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.gaurav.robotics_society",
+    "sha256_cert_fingerprints":
+    ["DA:CC:69:26:AD:E2:11:57:AE:10:9D:EB:C8:77:AF:A8:D8:4D:A4:BF:11:14:86:0C:F0:9D:F7:9F:DB:4C:BC:96"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://www.vssutrobotics.in"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.gaurav.robotics_society",
+    "sha256_cert_fingerprints":
+    ["DA:CC:69:26:AD:E2:11:57:AE:10:9D:EB:C8:77:AF:A8:D8:4D:A4:BF:11:14:86:0C:F0:9D:F7:9F:DB:4C:BC:96"]
+  }
+}]
